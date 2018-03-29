@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "/Users/guoxiaoxing/Github-front/BeesJava/demo/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/Users/guoxiaoxing/Library/Android/sdk/cmake/3.6.3155560/bin/cmake --build /Users/guoxiaoxing/Github-front/BeesJava/demo/.externalNativeBuild/cmake/release/armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/Users/guoxiaoxing/Library/Android/sdk/cmake/3.6.3155560/bin/cmake --build /Users/guoxiaoxing/Github-front/BeesJava/demo/.externalNativeBuild/cmake/release/armeabi-v7a --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/guoxiaoxing/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/guoxiaoxing/Library/Android/sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem /Users/guoxiaoxing/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/guoxiaoxing/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/guoxiaoxing/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/guoxiaoxing/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/guoxiaoxing/Github-front/BeesJava/demo/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/Users/guoxiaoxing/Github-front/BeesJava/demo/.externalNativeBuild/cmake/release/armeabi-v7a"
+				}
+			],
+			"output" : "/Users/guoxiaoxing/Github-front/BeesJava/demo/build/intermediates/cmake/release/obj/armeabi-v7a/libnative-lib.so",
+			"toolchain" : "255887539096869466"
+		}
+	},
+	"toolchains" : 
+	{
+		"255887539096869466" : 
+		{
+			"cCompilerExecutable" : "/Users/guoxiaoxing/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/guoxiaoxing/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

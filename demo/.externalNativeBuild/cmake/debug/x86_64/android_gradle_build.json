@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "/Users/guoxiaoxing/Github-front/BeesJava/demo/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/Users/guoxiaoxing/Library/Android/sdk/cmake/3.6.3155560/bin/cmake --build /Users/guoxiaoxing/Github-front/BeesJava/demo/.externalNativeBuild/cmake/debug/x86_64 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Debug-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/Users/guoxiaoxing/Library/Android/sdk/cmake/3.6.3155560/bin/cmake --build /Users/guoxiaoxing/Github-front/BeesJava/demo/.externalNativeBuild/cmake/debug/x86_64 --target native-lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/Users/guoxiaoxing/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/guoxiaoxing/Library/Android/sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem /Users/guoxiaoxing/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/guoxiaoxing/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/guoxiaoxing/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/guoxiaoxing/Library/Android/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/guoxiaoxing/Github-front/BeesJava/demo/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/Users/guoxiaoxing/Github-front/BeesJava/demo/.externalNativeBuild/cmake/debug/x86_64"
+				}
+			],
+			"output" : "/Users/guoxiaoxing/Github-front/BeesJava/demo/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so",
+			"toolchain" : "255887539096869466"
+		}
+	},
+	"toolchains" : 
+	{
+		"255887539096869466" : 
+		{
+			"cCompilerExecutable" : "/Users/guoxiaoxing/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/guoxiaoxing/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}
